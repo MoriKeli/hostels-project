@@ -1,0 +1,109 @@
+nav {
+	text-align: center;
+	font-family: Verdana;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	/*box-shadow: 0 10px 10px black;*/
+}
+header {
+	box-shadow: 0 10px 10px black;
+	border: 2px solid white;
+	height: auto;
+}
+#bar a {
+	text-decoration: none;
+	color: black;
+	display: inline;
+}
+#booking {
+	font-family: Verdana;
+	font-size: 15px;
+	text-align: center;
+}
+#card1 {
+	height: 150px;
+	width: 300px;
+	margin: 0% auto;
+	box-shadow: 10px 10px 15px black;
+}
+#card1:hover {
+	cursor: pointer;
+	height: 150px;
+	width: 330px;
+}
+#text-description {
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+#card2 {
+	height: 150px;
+	width: 300px;
+	margin: 0% auto;
+}
+img {
+	height: 200px;
+	width: 100%;
+}
+body {
+	background-image: linear-gradient(to right, orange, yellow, greenyellow);
+	background-position: center;
+	background-repeat: round;
+	font-family: Times New Roman;
+	font-size: 30px;
+}
+/*#paradise:hover {
+	cursor: pointer;
+	transition-duration: 2s;
+	background-image: url(Paradise/room-1.jpg);
+	background-image: url(Paradise/room-2.jpg);
+	background-image: url(Paradise/room-3.jpg);
+
+}*/
+/*#body:hover {
+	cursor: pointer;
+	background-image: none;
+	background-color: whitesmoke;
+}
+*/
+
+p {
+	font-family: Times New Roman;
+	font-size: 25px;
+	color: black;
+}
+/*p:hover {
+	cursor: pointer;
+	font-family: Times New Roman;
+	font-size: 25px;
+	color: black;
+}*/
+ul {
+	font-size: 25px;
+	font-family: Times New Roman;
+	color: black;
+}
+footer {
+	font-family: Verdana;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+@keyframes booking_anim {
+	from {
+		left: 0px;
+	}
+	to {
+		right: 200px;
+	}
+}
+#booking {
+	animation-name: booking_anim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: 6s;
+	animation-timing-function: ease;
+	animation-direction: alternate-reverse;
+	position: relative;
+}

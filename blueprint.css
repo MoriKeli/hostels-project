@@ -1,0 +1,21 @@
+body {
+	background-image: linear-gradient(to right, green, limegreen, greenyellow);
+}
+h2 {
+	font-family: Times New Roman;
+	font-size: 35px;
+	color: black;
+}
+@keyframes my_animation {
+	from {
+		left: 0%;
+		color: red;
+	}
+	to {
+		left: 100%;
+		color: purple;
+	}
+}
+h2 {
+	animation: my_animation 2s infinite relative alternate-reverse;
+}
